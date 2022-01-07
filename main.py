@@ -11,6 +11,7 @@ def funkcja():
 
     while i < 30:
         webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        i+=1
 
 url = tki.Entry(root, width=40)
 url.pack()
